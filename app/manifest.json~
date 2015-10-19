@@ -6,7 +6,7 @@
   	"default_locale": "en",
 	"content_scripts": [
    	  {
-           "js": ["jquery.csv-0.71.js", "jquery-1.3.2.js"]
+           "js": ["jquery.csv-0.71.js"]
     	  }
  	 ],
   	"permissions": [
