@@ -1,0 +1,5 @@
+What I have done:
+
+I have made a way to save and write CSV files. Their respective functionality is in the scripts/readCSV and writeCSV.  readCSV allows the user to select a CSV file they want to read and allows them to view that particular data.
+
+The writeCSV transforms an array to CSV automatically downloads the CSV file to download folder.
