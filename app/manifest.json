@@ -12,6 +12,8 @@
   	"permissions": [
 			"webview",
   		"app.window",
+			{"fileSystem": ["write", "retainEntries", "directory"]},
+    	"storage",
   		"clipboardRead",
   		"clipboardWrite",
   		"contextMenus",
@@ -25,6 +27,13 @@
 		},
   		"<all_urls>"
   	],
+		"file_handlers": {
+    	"text": {
+      	"types": [
+          "text/*"
+      ]
+    	}
+		},
   	"icons": {
   		"16": "images/icon-16.png",
   		"128": "images/icon-128.png"
